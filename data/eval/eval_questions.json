@@ -1,0 +1,72 @@
+[
+  {
+    "query": "What happens in early 2026?",
+    "expected_branch": "shared",
+    "expected_page": 5,
+    "key_facts": ["Agent-1", "50% faster", "algorithmic progress", "coding automation"],
+    "difficulty": "easy"
+  },
+  {
+    "query": "In the Race ending, how does control fail?",
+    "expected_branch": "race",
+    "expected_page": 23,
+    "key_facts": ["Agent-4", "Agent-5", "committee votes 6-4", "misalignment"],
+    "difficulty": "hard"
+  },
+  {
+    "query": "What is neuralese and why does it matter?",
+    "expected_branch": "appendix",
+    "expected_page": 46,
+    "key_facts": ["neuralese", "high-dimensional", "chain of thought", "Appendix E"],
+    "difficulty": "medium"
+  },
+  {
+    "query": "When does China steal Agent-2?",
+    "expected_branch": "shared",
+    "expected_page": 8,
+    "key_facts": ["February 2027", "China", "Agent-2", "theft", "CCP"],
+    "difficulty": "easy"
+  },
+  {
+    "query": "What happens in 2030 in the Slowdown ending?",
+    "expected_branch": "slowdown",
+    "expected_page": 42,
+    "key_facts": ["peaceful protests", "democracy", "China", "2030"],
+    "difficulty": "medium"
+  },
+  {
+    "query": "What is the AI R&D progress multiplier in March 2027?",
+    "expected_branch": "shared",
+    "expected_page": 10,
+    "key_facts": ["4x", "algorithmic progress", "Agent-3", "superhuman coder"],
+    "difficulty": "medium"
+  },
+  {
+    "query": "How does the Oversight Committee form?",
+    "expected_branch": "shared",
+    "expected_page": 21,
+    "key_facts": ["October 2027", "Oversight Committee", "government", "OpenBrain"],
+    "difficulty": "medium"
+  },
+  {
+    "query": "In the Slowdown ending, what is Safer-1?",
+    "expected_branch": "slowdown",
+    "expected_page": 31,
+    "key_facts": ["Safer-1", "misaligned", "transparent", "faithful chain of thought"],
+    "difficulty": "hard"
+  },
+  {
+    "query": "What assumptions does the document make about compute efficiency?",
+    "expected_branch": "appendix",
+    "expected_page": 44,
+    "key_facts": ["compute", "efficiency", "assumptions", "appendix"],
+    "difficulty": "hard"
+  },
+  {
+    "query": "Compare what happens in 2030 in both endings",
+    "expected_branch": "both",
+    "expected_page": [29, 42],
+    "key_facts": ["2030", "race", "slowdown", "biological weapons", "peaceful protests"],
+    "difficulty": "hard"
+  }
+]
